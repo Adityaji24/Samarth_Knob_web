@@ -1,12 +1,12 @@
 const images = [
-  { id: "img1", src: "images/ac1.jpg", category: "Air Conditioner", title: "Blue Star 1.5 Ton AC", description: "Energy-efficient cooling for summer heat." },
-  { id: "img3", src: "images/microwave1.jpg", category: "Microwave", title: "Samsung 23L Microwave", description: "Fast and even heating with a modern design." },
-  { id: "img4", src: "images/fan1.jpg", category: "Fan", title: "Oreva Smart Ceiling Fan", description: "Smart cooling and customizable lighting." },
-  { id: "img5", src: "images/washingm1.jpg", category: "Washing Machine", title: "LG 6.5 kg Front-load Washer", description: "Efficient washing for small families." },
-  { id: "img6", src: "images/airfryer1.jpg", category: "Air Fryer", title: "Bosch 3.5L Air Fryer", description: "Fry with less oil and large capacity." },
-  { id: "img11", src: "images/tv1.jpg", category: "TV", title: "Samsung 55\" 4K TV", description: "Stunning picture quality with Smart features." },
-  { id: "img12", src: "images/hometheatre1.jpg", category: "Home Theatre", title: "Sony 5.1 Channel Home Theatre", description: "Experience cinema-quality sound at home." },
-  { id: "img13", src: "images/mixergrinder1.jpg", category: "Mixer Grinder", title: "Philips 750W Mixer Grinder", description: "Powerful motor and multi-purpose grinding." }
+  { id: "img1", src: "ac1.jpg", category: "Air Conditioner", title: "Blue Star 1.5 Ton AC", description: "Energy-efficient cooling for summer heat." },
+  { id: "img3", src: "microwave1.jpg", category: "Microwave", title: "Samsung 23L Microwave", description: "Fast and even heating with a modern design." },
+  { id: "img4", src: "fan1.jpg", category: "Fan", title: "Oreva Smart Ceiling Fan", description: "Smart cooling and customizable lighting." },
+  { id: "img5", src: "washingm1.jpg", category: "Washing Machine", title: "LG 6.5 kg Front-load Washer", description: "Efficient washing for small families." },
+  { id: "img6", src: "airfryer1.jpg", category: "Air Fryer", title: "Bosch 3.5L Air Fryer", description: "Fry with less oil and large capacity." },
+  { id: "img11", src: "tv1.jpg", category: "TV", title: "Samsung 55\" 4K TV", description: "Stunning picture quality with Smart features." },
+  { id: "img12", src: "hometheatre1.jpg", category: "Home Theatre", title: "Sony 5.1 Channel Home Theatre", description: "Experience cinema-quality sound at home." },
+  { id: "img13", src: "mixergrinder1.jpg", category: "Mixer Grinder", title: "Philips 750W Mixer Grinder", description: "Powerful motor and multi-purpose grinding." }
 ];
 
 function renderGallery(filteredImages) {
